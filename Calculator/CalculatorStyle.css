@@ -1,0 +1,14 @@
+﻿body {
+}
+table {background-color: #00ff90;
+       border: 2px ridge #808080;
+}
+td {
+    padding-top: 2px;
+    padding-bottom: 2px;
+  
+}
+.numDisplay {
+    text-align: right;
+}
+
