@@ -1,0 +1,21 @@
+﻿body {background-color: #8ab75c;
+      font-family: sans-serif;
+      margin: auto;
+}
+h1 {
+    font-style: italic;
+    border: 3px double black;
+    text-align: center;
+}
+table {
+    width: 85%;
+    margin: auto;
+}
+td {
+    width: 33%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.error {
+    color: red;
+}

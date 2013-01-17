@@ -1,0 +1,25 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+<!--so this is a live template. subpages will look the same. kind of like php includes.
+Anything you want to be global, like JS or CSS, should go in here. 
+    If you use properties to style objects, it'll make your html ugly. Better to use CSS. -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+           <!--nothing goes here!!-->
+    </asp:ContentPlaceHolder>
+    <link href="CommunityAssistStyle.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+             <h1>Community Assist</h1>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+   <!--nothing goes here!!-->
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
