@@ -1,0 +1,9 @@
+﻿body {
+    background-color: #9fdef2;
+    font-family: Verdana, sans-serif;
+}
+
+.headline {
+    text-align: center;
+    text-decoration: underline;
+}
