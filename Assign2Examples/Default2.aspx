@@ -1,12 +1,11 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
+﻿<%@ Page Title="Confirm Information" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Default2.aspx.cs" Inherits="Default2" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
-    <!--header info, metadata, secondary style sheet here-->
 </asp:Content>
+
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <!--body content here-->
-    
-  <table>
+    <h2>Confirm your information:</h2>
+<table>
       <tr>
           <td>Enter first name:</td>
           <td> <asp:TextBox ID="txtFirstName" runat="server"></asp:TextBox> </td>
@@ -61,8 +60,7 @@
               <asp:ValidationSummary ID="ValidationSummary1" runat="server" />
            </td>
           <td> <asp:Label ID="lblMessage" runat="server" Text=""></asp:Label></td>
-          <td> <asp:Button ID="btnSubmit" runat="server" Text="Submit" OnClick="btnSubmit_Click" /> </td>
+          <td> <asp:Button ID="btnSubmit" runat="server" Text="Confirm" OnClick="btnSubmit_Click" /> </td>
       </tr>
   </table>
 </asp:Content>
-
