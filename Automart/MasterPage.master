@@ -3,17 +3,23 @@
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-<link href="MasterAutomartStyleSheet.css" rel="stylesheet" />
+
 <head runat="server">
-    <title>Automart</title>
+      <title>Automart</title>
     <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>
+    <link href="MasterAutomartStyleSheet.css" rel="stylesheet" />
 </head>
+
+
 <body>
     <form id="form1" runat="server">
     <div>
        <h1 class="headline" >Welcome to Automart</h1>
-    </div>
+    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+          </div>
     </form>
 </body>
 </html>

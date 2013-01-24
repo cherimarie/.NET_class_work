@@ -12,22 +12,22 @@ using System.Web;
 public class SiteUser
 {
     //private variables
-    private string lastName;
     private string firstName;
+      private string lastName;
     private DateTime birthDay;
     private string email;
 
       #region public properties
-    public string LastName
-    {
-        get { return lastName; }
-        set { lastName = value; }
-    }
-   
     public string FirstName
     {
         get { return firstName; }
         set { firstName = value; }
+    }
+
+     public string LastName
+    {
+        get { return lastName; }
+        set { lastName = value; }
     }
 
         public DateTime BirthDay
@@ -41,7 +41,8 @@ public class SiteUser
         get { return email; }
         set { email = value; }
     }
-   
+#endregion
+
 	public SiteUser()
 	{
 		//
@@ -49,9 +50,9 @@ public class SiteUser
 		//
 	}
 
-    public ToString()
-    {
+  //  public ToString()
+  //  {
         //returns all information stored for specified user as a string
 
-    }
+   // }
 }
