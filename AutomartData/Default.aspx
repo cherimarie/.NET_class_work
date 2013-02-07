@@ -4,13 +4,14 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Automart Services</title>
+    <link href="StyleSheet.css" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server">
      <div>
         <h1>Welcome to Automart!</h1>
-        <p>All of our outlets offer these services:</p>
+        <p class="emphasis">All of our outlets offer these services:</p>
 
 
          <asp:DataList ID="DataList1" runat="server" DataSourceID="SqlDataSource1">

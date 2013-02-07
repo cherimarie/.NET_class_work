@@ -4,13 +4,21 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Automart Locations</title>
+    <link href="StyleSheet.css" rel="stylesheet" />
 </head>
+
+
 <body>
     <form id="form1" runat="server">
+        <h1>Aurtomart Locations</h1>
     <div>
+        <h4>Choose your city:</h4>
         <asp:DropDownList ID="DropDownList1" runat="server" DataSourceID="SqlDataSource1" DataTextField="LocationName" DataValueField="LocationID" AutoPostBack="True"></asp:DropDownList>  
-        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:AutomartConnectionString %>" SelectCommand="Select LocationName, LocationID from Customer.Location"></asp:SqlDataSource>
+              <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:AutomartConnectionString %>" SelectCommand="Select LocationName, LocationID from Customer.Location"></asp:SqlDataSource>
+
+          <br />
+        <br />
 
         <asp:DetailsView ID="DetailsView1" runat="server" Height="50px" Width="125px" AutoGenerateRows="False" DataSourceID="SqlDataSource2">
             <Fields>
