@@ -11,4 +11,9 @@ public partial class _Default : System.Web.UI.Page
     {
 
     }
+
+    protected void BtnGoClick(object sender, EventArgs e)
+    {
+        Response.Redirect("Default2.aspx");
+    }
 }

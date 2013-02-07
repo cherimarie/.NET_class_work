@@ -27,7 +27,7 @@
     
          <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:AutomartConnectionString %>" SelectCommand="Select serviceName, Cast(ServicePrice as Decimal(5,2)) as ServicePrice 
 from Customer.Autoservice"></asp:SqlDataSource>
-    
+         <asp:Button ID="Button1" runat="server" Text="Find Location" OnClick="BtnGoClick" />
     </div>
     </form>
 </body>
