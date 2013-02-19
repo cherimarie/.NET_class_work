@@ -10,10 +10,12 @@
 <body>
     <form id="form1" runat="server">
     <div>
-    
+    <h4>Welcome! Please log in.</h4>
+        <br />
+        <br /> 
            <table>
             <tr>
-                <td>User Name: </td>
+                <td>Email Adress: </td>
                 <td><asp:TextBox ID="txtUser" runat="server"></asp:TextBox></td>
             </tr>
             <tr>
@@ -22,7 +24,7 @@
                     <!--textmode=password will make it show as asteriks when typed, very cool, except for while you're testing and might need to see password-->
             </tr>
             <tr>
-                <td><asp:Label ID="lblMessage" runat="server" Text=""></asp:Label></td>
+                <td><asp:Label ID="lblMessage" runat="server" Text="" CssClass="alert"></asp:Label></td>
                 <td> <asp:Button ID="btnLogin" runat="server" Text="Log In" OnClick="btnLogin_Click" /></td>
             </tr>
         </table>

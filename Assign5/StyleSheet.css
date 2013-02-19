@@ -1,2 +1,6 @@
 ﻿body { background-color: #76b7dd;
 }
+.alert {
+    color: red;
+    font: bold;
+}

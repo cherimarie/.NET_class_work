@@ -14,8 +14,8 @@ public partial class _Default : System.Web.UI.Page
 
     protected void btnLogin_Click(object sender, EventArgs e)
     {
-        DonorLoginClass dl = new DonorLoginClass();
-        int person = dl.Login(txtUser.Text, txtPassword.Text);
+        Login lo = new Login();
+        int person = lo.UserLogin(txtUser.Text, txtPassword.Text);
         //TODO: validate these inputs
         if (person != 0)
         {
