@@ -9,11 +9,26 @@
 <body>
     <form id="form1" runat="server">
     <div>
+        <h3>Services Available</h3>
         <ul>
         <asp:DataList ID="DataList1" runat="server">
             <ItemTemplate>
+                
+                <li><%#Eval("ServiceName") %> 
+                    <%#Eval("ServicePrice") %>
+                </li>
+            </ItemTemplate>
+            </asp:DataList>
+            </ul>
+
+        <h3>Locations</h3>
+         <ul>
+        <asp:DataList ID="DataList2" runat="server">
+            <ItemTemplate>
                 <li><%#Eval("LocationName") %> 
                     <%#Eval("LocationAddress") %>
+                    <%#Eval("LocationCity") %>
+                    <%#Eval("LocationState") %>
                 </li>
             </ItemTemplate>
             </asp:DataList>
