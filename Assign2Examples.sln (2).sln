@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Assign2Examples", "Assign2Examples\", "{65257E82-458F-4EBC-B94B-C8B7B2B79E02}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/Assign2Examples"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\Desktop\ITC172\Assign2Examples\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Assign2Examples\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Assign2Examples"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\Desktop\ITC172\Assign2Examples\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Assign2Examples\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2278"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65257E82-458F-4EBC-B94B-C8B7B2B79E02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65257E82-458F-4EBC-B94B-C8B7B2B79E02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

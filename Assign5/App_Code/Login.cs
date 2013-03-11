@@ -5,9 +5,8 @@ using System.Web;
 using System.Data;
 using System.Data.SqlClient;
 
-/// <summary>
 /// This class will take the username (which is users email) and password and check it against data table Customer.RegisteredCustomer. 
-/// </summary>
+
 public class Login
 {
     private SqlConnection connect;

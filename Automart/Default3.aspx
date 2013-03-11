@@ -7,4 +7,10 @@
   
     
     
+      <asp:Label ID="lblMessage" runat="server" Text="Label"></asp:Label>
+<p>
+</p>
+  
+    
+    
       </asp:Content>

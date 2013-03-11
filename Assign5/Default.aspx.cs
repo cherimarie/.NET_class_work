@@ -16,7 +16,7 @@ public partial class _Default : System.Web.UI.Page
     {
         Login lo = new Login();
         int person = lo.UserLogin(txtUser.Text, txtPassword.Text);
-        //TODO: validate these inputs
+      
         if (person != 0)
         {
             Session["person"] = person;

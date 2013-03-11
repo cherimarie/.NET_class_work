@@ -5,7 +5,7 @@ using System.Web;
 
 /// <summary>
 /// This is information site users will enter about themselves when logging into the site. 
-/// project: Automart site with login capability for users
+/// project: Automart site with login, confirmation, and thanks pages. 
 /// date: jan 24, 2013
 /// programmer: Cheri Allen
 /// </summary>
