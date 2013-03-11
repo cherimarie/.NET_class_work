@@ -7,3 +7,11 @@ h3 {
     text-decoration: underline;
     color: #dc27d3;
 }
+.login {
+    font-size: .85em;
+    float: right;
+}
+a.login {
+    color: pink;
+    text-decoration: none;
+}

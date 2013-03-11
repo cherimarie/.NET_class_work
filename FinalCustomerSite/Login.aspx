@@ -3,5 +3,14 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+   <div class="login">
+         Not a member? 
+         <a href="CustomerRegistration.aspx">Register here.</a>
+     </div>
+    email
+    password
+
+    redirect to AccountInfo.aspx
+
 </asp:Content>
 
