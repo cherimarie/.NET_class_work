@@ -14,6 +14,7 @@ public partial class _Default : System.Web.UI.Page
     }
     protected void txtSubmit_Click(object sender, EventArgs e)
     {
+      
         int isErrors = Validator();
         if (isErrors == 0)
         {

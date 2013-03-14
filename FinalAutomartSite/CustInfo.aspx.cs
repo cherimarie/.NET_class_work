@@ -4,12 +4,12 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using AutomartModel; 
 
 public partial class Default2 : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-
         if (Session["person"] != null)
         {
             int pK = (int)Session["person"];
@@ -18,7 +18,7 @@ public partial class Default2 : System.Web.UI.Page
         }
         else
         {
-            Response.Redirect("Default.aspx");
+            Response.Redirect("Login.aspx");
         }
     }
 }

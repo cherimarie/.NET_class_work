@@ -3,9 +3,9 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    //A customer clicking this link should be redirected to a form which allows the user to enter their name, email, vehicle information and a password. When they have submitted this information, they should redirect to a thank you. The form fields should be validated (required, password fields should match), and all code should have error trapping.
+  
       <div>
-      <h2>Enter New Customer</h2>
+      <h2>Enter your information</h2>
     <table>
         <tr>
             <td>Last Name:</td>

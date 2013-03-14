@@ -1,4 +1,9 @@
 ﻿body {
     background-color: #fccdec;
-    font-family: Impact, sans-serif;
+    font-family: helvetica, sans-serif;
+}
+#header {
+    background-color: #efaafa;
+    text-align: center;
+    padding: 3px;
 }

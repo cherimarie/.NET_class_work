@@ -12,5 +12,20 @@ public partial class Default2 : System.Web.UI.Page
     {
 
     }
- 
+
+    protected void btnLogin_Click(object sender, EventArgs e)
+    {
+        Login lo = new Login();
+        int person = lo.UserLogin(txtUser.Text, txtPassword.Text);
+
+        if (person != 0)
+        {
+            Session["person"] = person;
+            Response.Redirect("CustInfo.aspx");
+        }
+        else
+        {
+            lblMessage.Text = "Invalid login, sucker!";
+        }
+    }
 }
