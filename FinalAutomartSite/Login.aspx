@@ -4,6 +4,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     //On the login page, there should be a statement something like "Not a member yet? Click here to register."
+
    <table>
             <tr>
                 <td>Email Adress: </td>
@@ -19,7 +20,6 @@
                 <td> <asp:Button ID="btnLog" runat="server" Text="Log In" OnClick="btnLogin_Click" /></td>
             </tr>
         </table>
-
 
 </asp:Content>
 

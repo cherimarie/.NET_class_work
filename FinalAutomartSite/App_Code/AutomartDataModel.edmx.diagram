@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="856c3985ea8b41ec8aed22e2bd8abe71" Name="Diagram1">
+        <EntityTypeShape EntityType="AutomartModel.AutoService" Width="1.5" PointX="3" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutomartModel.CustomerSurvey" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutomartModel.Location" Width="1.5" PointX="0.75" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutomartModel.RegisteredCustomer" Width="1.5" PointX="3.75" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutomartModel.vehicle" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutomartModel.Employee" Width="1.5" PointX="6" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutomartModel.Person" Width="1.5" PointX="1.5" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutomartModel.VehicleService" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutomartModel.VehicleServiceDetail" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="AutomartModel.FK__VehicleSe__AutoS__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="AutomartModel.FK__CustomerS__Locat__276EDEB3" ManuallyRouted="false" />
+        <AssociationConnector Association="AutomartModel.FK__Employee__Locati__24927208" ManuallyRouted="false" />
+        <AssociationConnector Association="AutomartModel.FK__VehicleSe__Locat__2A4B4B5E" ManuallyRouted="false" />
+        <AssociationConnector Association="AutomartModel.FK__Registere__Perso__1DE57479" ManuallyRouted="false" />
+        <AssociationConnector Association="AutomartModel.FK__vehicle__PersonK__0F975522" ManuallyRouted="false" />
+        <AssociationConnector Association="AutomartModel.FK_VehicleService_vehicle" ManuallyRouted="false" />
+        <AssociationConnector Association="AutomartModel.FK__Employee__Person__145C0A3F" ManuallyRouted="false" />
+        <AssociationConnector Association="AutomartModel.FK__Employee__Superv__267ABA7A" ManuallyRouted="false" />
+        <AssociationConnector Association="AutomartModel.FK__VehicleSe__Vehic__2D27B809" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

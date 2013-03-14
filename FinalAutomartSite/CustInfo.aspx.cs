@@ -9,6 +9,7 @@ public partial class Default2 : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+
         if (Session["person"] != null)
         {
             int pK = (int)Session["person"];
