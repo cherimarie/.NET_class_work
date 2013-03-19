@@ -15,6 +15,27 @@ public partial class Default2 : System.Web.UI.Page
             int pK = (int)Session["person"];
             CustomerName cn = new CustomerName(pK);
             lblName.Text = cn.CustomerNameFetch();
+
+            CustomerHistory ch = new CustomerHistory(pK);
+            lblYear.Text = ch.VehicleYearFetch();
+            lblMake.Text = ch.VehicleMakeFetch();
+
+            {
+                AutomartEntities ae = new AutomartEntities();
+                var serv = from s in ae.AutoServices
+                           orderby s.ServiceName
+                           select new { s.ServiceName, s.ServicePrice };
+                dlHistory.DataSource = serv.ToList();
+                dlHistory.DataBind();
+
+                var loc = from l in ae.Locations
+                          orderby l.LocationName
+                          select new { l.LocationName, l.LocationAddress, l.LocationCity, l.LocationState };
+                dlHistory.DataSource = loc.ToList();
+                dlHistory.DataBind();
+            }
+
+
         }
         else
         {
