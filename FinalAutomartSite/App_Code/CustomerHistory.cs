@@ -62,4 +62,25 @@ public class CustomerHistory
 
         return vehMake;
     }
+
+    public int VehicleIdFetch()
+    {
+        int vehId = 0;
+
+        string sql = "Select VehicleId From vehicle Where PersonKey=@PersonKey";
+        SqlCommand cmd = new SqlCommand(sql, connect);
+        cmd.Parameters.AddWithValue("@personKey", personKey);
+
+        SqlDataReader reader = null;
+        connect.Open();
+        reader = cmd.ExecuteReader();
+        while (reader.Read())
+        {
+            vehId = int.Parse(reader["VehicleId"].ToString());
+        }
+        reader.Close();
+        connect.Close();
+
+        return vehId;
+    }
 }
