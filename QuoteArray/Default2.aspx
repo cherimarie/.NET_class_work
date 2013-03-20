@@ -3,6 +3,8 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <p id="quoteout"></p>
+    <p>Here's your quote: </p>
+ 
+    <asp:Label ID="quoteout" runat="server" Text=""></asp:Label>
 </asp:Content>
 
